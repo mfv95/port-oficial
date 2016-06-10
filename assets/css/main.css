@@ -1,0 +1,113 @@
+p { font-family: 'Raleway'; }
+
+.frase { font-family: 'Pacifico'; font-size: 1.4em; color: purple; }
+
+h3 { font-family: 'Yellowtail' !important; font-size: 3em !important; }
+
+.row { padding-right: 0px !important; padding-left: 0px !important; margin: 0px !important; }
+
+canvas { margin-top: -17%; }
+
+.count-particles { background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+
+.js-count-particles { font-size: 1.1em; }
+
+#stats, .count-particles { -webkit-user-select: none; margin-top: 5px; margin-left: 5px; }
+
+#stats { border-radius: 3px 3px 0 0; overflow: hidden; }
+
+.count-particles { border-radius: 0 0 3px 3px; }
+
+#particles-js { width: 100%; height: 100vh; background: rgba(78, 17, 88, 0.78); background-size: cover; background-position: 48% 15%; background-repeat: no-repeat; }
+#particles-js .img { position: relative; top: 30%; left: 27%; background-color: #74457C; }
+
+body #navigation { position: fixed; margin: 0px; padding: 0px; top: 10px; left: 0px; list-style: none; z-index: 9999; }
+body #navigation li { width: 100px; }
+body #navigation li a { display: block; width: 100px; height: 70px; background-color: #9E9E9E; background-repeat: no-repeat; background-position: center center; border: 1px solid black; -moz-border-radius: 0px 10px 10px 0px; -webkit-border-bottom-right-radius: 10px; -webkit-border-top-right-radius: 10px; }
+body #navigation li a .my { width: 65%; margin-left: 25%; margin-top: -2%; }
+body #navigation li a .skills { width: 55%; margin-left: 25%; margin-top: -1%; }
+body #navigation li a .works { width: 84%; margin-left: 5%; margin-top: 5%; }
+body #navigation li a .contact { width: 64%; margin-left: 25%; margin-top: 4%; }
+body #intro { background: #FAF6D0; min-height: 622px; }
+body #intro .intereses { padding-bottom: 3%; }
+body #intro img { width: 60%; margin-top: 6%; text-align: center; margin: auto; }
+body #intro h3 { padding-bottom: 3%; }
+body #intro .sobre { width: 100%; margin-top: 10%; }
+body #intro .star { width: 4%; margin-top: 0; }
+body #bloque-img2 { background: url(../img/Wiki-background.jpg) 50% 0 fixed; height: 300px; padding: 100px 0; }
+
+.bg-spl { position: relative; height: 100%; }
+.bg-spl .info-p { padding-bottom: 15% !important; }
+.bg-spl .info, .bg-spl .info-p { margin-left: 60%; padding: 5px 50px 0px 0px; font-size: 1.1em; padding-top: 10%; padding-bottom: 10%; }
+
+.wsp-spl { padding: 100px 0 0; }
+
+.works a { border-bottom: 0px solid; }
+.works a button { border-radius: 20px; }
+.works a button img { width: 50%; }
+.works #wsp { background: url(../img/trabajos/erdos.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+.works #wsp #works { position: relative; left: 76vh; top: 3vh; }
+
+#dashy { background: url(../img/trabajos/fp.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+
+#por { background: url(../img/trabajos/muzi.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+
+#diario { background: url(../img/trabajos/sp.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+
+#fashion { background: url(../img/trabajos/omegle.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+
+#primes { background: url(../img/trabajos/backdoor.png) no-repeat fixed 5% 150px #2B0831; background-size: 50%; color: white; position: relative; }
+
+.images img { width: 100%; }
+
+#habilidades { background: black; }
+#habilidades .habilidades { position: relative; margin-left: 4%; padding-top: 2%; padding-bottom: 3%; }
+#habilidades .habilidades h3 { padding-bottom: 4%; color: chocolate; }
+#habilidades .habilidades p { color: chocolate; }
+#habilidades .habilidades img { width: 70%; }
+#habilidades .habilidades .as { width: 70%; border-radius: 65px; }
+#habilidades .habilidades .canvas { width: 70%; border-radius: 34px; margin-left: 65vh; }
+#habilidades .habilidades .first { padding-bottom: 3%; }
+#habilidades .habilidades .second { padding-top: 3%; }
+
+.contacto { text-align: center; }
+.contacto .netzun { width: 24%; margin-left: 1%; }
+.contacto .me { padding: 3%; }
+.contacto .in { width: 25%; }
+.contacto .gmail { width: 25%; }
+
+@media only screen and (max-width: 600px) { #particles-js img { width: 35%; }
+  #intro { padding-left: 4%; text-align: center; padding-bottom: 10%; }
+  #intro img { width: 50% !important; padding-bottom: 5%; padding-top: 5%; }
+  #intro .sobre { width: 100% !important; }
+  #intro .star { width: 4% !important; }
+  #intro .like { margin-left: 10vh; width: 55% !important; padding-bottom: 4%; }
+  .habilidades { text-align: center; }
+  .habilidades h3 { padding-top: 5%; }
+  .habilidades .canvas { margin-left: 0% !important; }
+  .habilidades img { width: 50% !important; margin: auto; text-align: center; padding: 2%; }
+  .habilidades .as { border-radius: 70px !important; }
+  .works #wsp { background: white; }
+  .images { margin-top: 10%; }
+  .images .png { background: black; padding-bottom: 6%; margin-bottom: 8%; border-radius: 37px; }
+  .contacto .me { width: 100%; padding: 2%; margin-top: 7%; margin-bottom: 5%; }
+  .wssap { padding-bottom: 7.5%; }
+  .gmail img { width: 30%; } }
+@media only screen and (max-width: 1000px) { #particles-js { height: 50vh; }
+  #particles-js img { width: 55%; }
+  #intro { padding-left: 4%; text-align: center; padding-bottom: 10%; }
+  #intro img { width: 50% !important; padding-bottom: 5%; padding-top: 5%; }
+  #intro .star { width: 4% !important; }
+  #intro .like { margin-left: 10vh; width: 55% !important; padding-bottom: 4%; }
+  .habilidades { text-align: center; }
+  .habilidades .canvas { margin-left: 0% !important; }
+  .habilidades img { width: 50% !important; margin: auto; text-align: center; padding: 2%; }
+  .habilidades .as { border-radius: 70px !important; }
+  .works #wsp { background: white; }
+  .images .png { background: black; padding-bottom: 6%; margin-bottom: 8%; border-radius: 37px; }
+  .contacto .me { width: 100%; padding: 2%; margin-top: 7%; margin-bottom: 5%; }
+  .wssap { padding-bottom: 7.5%; }
+  .gmail img { width: 30%; } }
+[class*="col-md"] { padding-right: 0%; padding-left: 0%; margin: 0%; }
+
+/*# sourceMappingURL=main.css.map */

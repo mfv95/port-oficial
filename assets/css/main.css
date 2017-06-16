@@ -93,7 +93,7 @@ body #bloque-img2 { background: url(../img/Wiki-background.jpg) 50% 0 fixed; hei
   .contacto .me { width: 100%; padding: 2%; margin-top: 7%; margin-bottom: 5%; }
   .wssap { padding-bottom: 7.5%; }
   .gmail img { width: 30%; } }
-@media only screen and (max-width: 1000px) { #particles-js { height: 50vh; }
+@media only screen and (max-width: 1500px) { #particles-js { height: 50vh; }
   #particles-js img { width: 55%; }
   #intro { padding-left: 4%; text-align: center; padding-bottom: 10%; }
   #intro img { width: 50% !important; padding-bottom: 5%; padding-top: 5%; }
